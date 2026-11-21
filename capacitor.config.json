@@ -1,0 +1,19 @@
+{
+  "appId": "dev.jiyy.chat",
+  "appName": "Jiyy Chat",
+  "webDir": "www",
+  "backgroundColor": "#131313",
+  "server": {
+    "url": "https://jiyy-chat.jiyydev.workers.dev/beranda.html",
+    "androidScheme": "https",
+    "cleartext": false,
+    "allowNavigation": ["jiyy-chat.jiyydev.workers.dev", "jiyy-nokos.pages.dev"]
+  },
+  "android": {
+    "backgroundColor": "#131313",
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 0, "backgroundColor": "#131313" }
+  }
+}
